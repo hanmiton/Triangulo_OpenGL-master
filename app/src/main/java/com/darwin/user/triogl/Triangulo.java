@@ -14,9 +14,9 @@ import javax.microedition.khronos.opengles.GL10;
 public class Triangulo {
     // x, y, z
     private float vertices[]={
-                    -1.0f, 0.0f, 0.0f,  // vertices[0], bottom left
-                    1.0f, 0.0f, 0.0f,   // vertices[1], bottom right
-                    0.0f, 0.5f, 0.0f,   // vertices[2], middle top
+                    -1.0f, 1.0f, 0.5f,  // vertices[0], bottom left
+                    0.5f, -0.5f, 0.0f,   // vertices[1], bottom right
+                    0.0f, 1.0f, -0.5f,   // vertices[2], middle top
             };
      private float colors[]={
                     0.0f, 1.0f, 0.0f, 1.0f,
